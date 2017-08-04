@@ -1,7 +1,7 @@
 {
     "live-restore": true,
-    "registry-mirrors": ["http://10.0.2.50"],
-    "insecure-registries": ["10.0.2.50"],
+    "registry-mirrors": ["http://192.138.101.93"],
+    "insecure-registries": ["192.168.101.93"],
     "log-driver": "json-file",
     "log-opts": {
       "labels" : "app",
