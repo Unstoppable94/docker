@@ -1,0 +1,12 @@
+{
+    "live-restore": true,
+    "registry-mirrors": ["http://10.0.2.50"],
+    "insecure-registries": ["10.0.2.50"],
+    "log-driver": "json-file",
+    "log-opts": {
+      "labels" : "app",
+      "env" : "os",
+      "max-file" : "3",
+      "max-size": "10m"
+        }
+}
