@@ -2,6 +2,7 @@
     "live-restore": true,
     "registry-mirrors": ["http://192.138.101.93"],
     "insecure-registries": ["192.168.101.93","10.0.2.50"],
+    #this line show the docker log driver classsry for log-drive.
     "log-driver": "json-file",
     "log-opts": {
       "labels" : "app",
